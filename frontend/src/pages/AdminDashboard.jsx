@@ -1,43 +1,42 @@
-import { Activity, AlertTriangle, BarChart, Users } from 'lucide-react';
-
-const StatCard = ({ title, value, icon: Icon, color }) => (
-  <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center gap-4">
-    <div className={`p-3 rounded-lg ${color}`}>
-      <Icon className="h-6 w-6 text-white" />
-    </div>
-    <div>
-      <p className="text-sm text-slate-500 font-medium">{title}</p>
-      <h3 className="text-2xl font-bold text-slate-800">{value}</h3>
-    </div>
-  </div>
-);
 
 const AdminDashboard = () => {
   return (
-    <div className="container mx-auto p-8">
-      <div className="flex items-center justify-between mb-8">
-        <div>
-          <h2 className="text-2xl font-bold text-slate-800">Command Center</h2>
-          <p className="text-slate-500">Live operational overview</p>
+    <div className="p-6 space-y-6">
+      <h1 className="text-3xl font-bold">Admin Dashboard</h1>
+
+      {/* Stats Section */}
+      <div className="p-4 border border-dashed border-gray-400 rounded bg-gray-50">
+        <h2 className="text-xl font-semibold mb-2">Statistics</h2>
+        <div className="h-24 bg-gray-200 flex items-center justify-center text-gray-500">
+          [Stats Placeholder: Active Units, Pending Requests, etc.]
         </div>
-        <button className="px-4 py-2 bg-slate-800 text-white rounded-lg hover:bg-slate-900 transition-colors">
-          Download Report
-        </button>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-        <StatCard title="Active Alerts" value="24" icon={AlertTriangle} color="bg-red-500" />
-        <StatCard title="Rescues Pending" value="12" icon={Activity} color="bg-orange-500" />
-        <StatCard title="Teams Deployed" value="8" icon={Users} color="bg-blue-500" />
-        <StatCard title="Safe Zones" value="5" icon={BarChart} color="bg-green-500" />
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 h-64 flex items-center justify-center text-slate-400">
-          Map Visualization Placeholder
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Map Section */}
+        <div className="p-4 border border-dashed border-gray-400 rounded bg-gray-50 min-h-[300px]">
+          <h2 className="text-xl font-semibold mb-2">Live Map</h2>
+          <div className="h-full bg-gray-200 flex items-center justify-center text-gray-500">
+            [Map Component Placeholder]
+          </div>
         </div>
-        <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 h-64 flex items-center justify-center text-slate-400">
-          Live Feed Placeholder
+
+        <div className="space-y-6">
+          {/* SOS Requests List */}
+          <div className="p-4 border border-dashed border-gray-400 rounded bg-gray-50">
+            <h2 className="text-xl font-semibold mb-2">Incoming SOS Requests</h2>
+            <div className="h-32 bg-gray-200 flex items-center justify-center text-gray-500">
+              [List of SOS Requests Placeholder]
+            </div>
+          </div>
+
+          {/* Road Block Form */}
+          <div className="p-4 border border-dashed border-gray-400 rounded bg-gray-50">
+            <h2 className="text-xl font-semibold mb-2">Report Road Blockage</h2>
+            <div className="h-32 bg-gray-200 flex items-center justify-center text-gray-500">
+              [Road Block Form Placeholder]
+            </div>
+          </div>
         </div>
       </div>
     </div>
