@@ -43,6 +43,7 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel01 = new Node("KEL01", 6.954833, 79.882278, "New Kelani River Bridge (Kelani River Crossing)");
         Node kel02 = new Node("KEL02", 6.983333, 79.883333, "Wattala Town Centre (A3 Corridor)");
         Node kel03 = new Node("KEL03", 6.968390, 79.892868, "Peliyagoda Interchange (E03 / A004)");
+        
 
         // =====================
         // Peliyagoda + riverside lowland
@@ -66,6 +67,25 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel12 = new Node("KEL12", 6.981120, 79.929850, "Kiribathgoda (A1 Bus Stand / Junction)");
         Node kel13 = new Node("KEL13", 6.982370, 79.945600, "Makola Junction (Makola–Udupila / Local Link)");
         Node kel14 = new Node("KEL14", 7.001418, 79.949871, "Kadawatha Town (A1 Corridor Boundary)");
+
+        Node kel15 = new Node("KEL15", 6.955565,  79.879964, "Colombo-Hanwella Low Level Road (AB10)");
+        Node kel16 = new Node("KEL16", 6.964436, 79.869192, "709 New Negombo Road");
+        Node kel17 = new Node("KEL17", 6.958459, 79.875834, "Sirimavo Bandaranaike Mawatha");
+        Node kel18 = new Node("KEL18", 6.960760, 79.880695, "Peliyagoda Gangabada");
+        Node kel19 = new Node("KEL19",6.943379, 79.864262, "George R. De Silva Mawatha");
+
+        Node kel20 = new Node("KEL20",7.002042, 79.949437,"Ragama Road");
+        Node kel21 = new Node("KEL21", 7.000893, 79.949355, "Kadawatha By Pass Road");
+        Node kel22 = new Node("KEL22", 7.004654, 79.956593, "Kandy - Colombo Road");
+        Node kel23 = new Node("KEL23", 7.002950, 79.950407, "Galwala Cross Road");
+        Node kel24 = new Node("KEL24", 7.003224, 79.951316, "34 Galwala Road");
+        Node kel25 = new Node("KEL25", 7.002177, 79.948560, "Galroda Road");
+        Node kel26 = new Node("KEL26", 7.003821, 79.947982, "Galrodaya Road");
+        Node kel27 = new Node("KEL27", 7.007792, 79.939533, "2-23 Ragama Road");
+        Node kel28 = new Node("KEL28", 7.004764, 79.940539, "Kirimatiyagara Road");
+        Node kel29 = new Node("KEL29", 6.997693, 79.933875, "Dalupitiya Road");
+        Node kel30 = new Node("KEL30", 7.000696, 79.933011, "Pahalawatta Rd");
+        Node kel31 = new Node("KEL31", 7.016543, 79.932339, "Kurukulawa Junction");
 
         // =====================
         // Add all nodes to graph
@@ -113,9 +133,20 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addEdge("KEL07", "KEL11"); // A1 segment (curves abstracted as single edge)
         graph.addEdge("KEL11", "KEL12"); // A1 segment (curves abstracted as single edge)
         graph.addEdge("KEL12", "KEL14"); // A1 segment up to Kadawatha (major junction boundary)
+        graph.addEdge("KEL14", "KEL20"); // Kadawatha Town (A1 Corridor Boundary) to Ragama Road
 
         // --- Local east-side connector (Kiribathgoda ↔ Makola) ---
         graph.addEdge("KEL12", "KEL13"); // Local connector road; split at Kiribathgoda junction
+        graph.addEdge("KEL15", "KEL16");
+        graph.addEdge("KEL17", "KEL18");
+        graph.addEdge("KEL17", "KEL19");
+
+        graph.addEdge("KEL21", "KEL22");
+        graph.addEdge("KEL23", "KEL24");
+        graph.addEdge("KEL25", "KEL26");
+        graph.addEdge("KEL26", "KEL27");
+        graph.addEdge("KEL28", "KEL29");
+        graph.addEdge("KEL30", "KEL31");
 
         System.out.println("✓ Loaded 14 nodes and 13 road segments in Kelaniya area");
     }
