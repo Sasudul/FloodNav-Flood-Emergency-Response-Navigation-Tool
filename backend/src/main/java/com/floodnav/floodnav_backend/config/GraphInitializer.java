@@ -84,8 +84,28 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel27 = new Node("KEL27", 7.007792, 79.939533, "2-23 Ragama Road");
         Node kel28 = new Node("KEL28", 7.004764, 79.940539, "Kirimatiyagara Road");
         Node kel29 = new Node("KEL29", 6.997693, 79.933875, "Dalupitiya Road");
-        Node kel30 = new Node("KEL30", 7.000696, 79.933011, "Pahalawatta Rd");
+        Node kel30 = new Node("KEL30", 7.000696, 79.933011, "Pahalawatta Road");
         Node kel31 = new Node("KEL31", 7.016543, 79.932339, "Kurukulawa Junction");
+
+        Node kel32 = new Node("KEL32", 7.023510, 79.928576, "Temple Road");
+        Node kel33 = new Node("KEL33", 7.015273, 79.930760, "196 Kurukulawa Road");
+        Node kel34 = new Node("KEL34", 7.021138, 79.935294, "Prison Road");
+        Node kel35 = new Node("KEL35", 7.028299, 79.945141, "Galwala Junction");
+        Node kel36 = new Node("KEL36", 7.013715, 79.929010, "St Jude Mawatha");
+        Node kel37 = new Node("KEL37", 6.997833, 79.917439, "Vijaya Kumarathunga Mawatha");
+        Node kel38 = new Node("KEL38", 7.002057, 79.907211, "192 Sri Amarawansa Mawatha");
+        Node kel39 = new Node("KEL39", 7.000184, 79.907102, "Abeysekara Road, Wattala");
+        Node kel40 = new Node("KEL40", 6.998243, 79.917275, "Veethi Rd");
+        Node kel41 = new Node("KEL41", 6.995946, 79.915767, "Wattala-Mahara Road");
+        Node kel42 = new Node("KEL42", 6.993743, 79.915311, "Senavirathna Road");
+        Node kel43 = new Node("KEL43", 6.989783, 79.906290, "Wedikanda Road");
+        Node kel44 = new Node("KEL44", 6.991535, 79.903505, "Welegoda");
+        Node kel45 = new Node("KEL45", 6.975717, 79.924569, "Hunupitiya Road");
+        Node kel46 = new Node("KEL46", 6.984762, 79.902693, "Station Road");
+        Node kel47 = new Node("KEL47", 6.989673, 79.892867, "Wattala Deviation");
+        Node kel48 = new Node("KEL48", 6.989831, 79.892710, "Old Negombo Road");
+        Node kel49 = new Node("KEL49", 6.985481, 79.889108, "290 Negombo - Colombo Main Rd");
+        Node kel50 = new Node("KEL50", 6.984476, 79.888836, "Awariyawatta");
 
         // =====================
         // Add all nodes to graph
