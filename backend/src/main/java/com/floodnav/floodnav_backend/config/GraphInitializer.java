@@ -39,7 +39,7 @@ public class GraphInitializer implements CommandLineRunner {
         // Create ALL Nodes
         // =====================
 
-        Node kel01 = new Node("KEL01", 6.984476, 79.888836, "New Kelani Bridge Interchange");
+        Node kel01 = new Node("KEL01", 6.955913, 79.883615, "New Kelani Bridge Interchange");
         Node kel02 = new Node("KEL02", 6.959846, 79.886631, "77 Gongalegoda Banda Raja Mw");
         Node kel03 = new Node("KEL03", 6.965422, 79.891414, "E03, Wattala");
         Node kel04 = new Node("KEL04", 6.971362, 79.894026, "Thelangapatha - Wattala Flyover");
@@ -49,6 +49,21 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel08 = new Node("KEL08", 6.988265, 79.900357, "Station Rd End");
         Node kel09 = new Node("KEL09", 6.991057, 79.902507, "Welegoda, Wattala");
         Node kel10 = new Node("KEL10", 7.000303, 79.904388, "Welikadamulla Rd");
+        Node kel11 = new Node("KEL11", 7.004375, 79.902089, "Hamilton Ela 1");
+        Node kel12 = new Node("KEL12", 7.006492, 79.897050, "Negombo - Colombo Main Rd");
+        Node kel13 = new Node("KEL13", 7.007899, 79.893630, "Vijaya Rd");
+        Node kel14 = new Node("KEL14", 7.012933, 79.891232, "Kerangapokuna");
+        Node kel15 = new Node("KEL15", 7.017451, 79.890455, "Outer Circular Expy, Pannipitiya");
+        Node kel16 = new Node("KEL16", 7.016332, 79.898649, "Negombo - Colombo Main Rd");
+        Node kel17 = new Node("KEL17", 7.013730, 79.904650, "Ja-Ela");
+        Node kel18 = new Node("KEL18", 7.009780, 79.910171, "Hamilton Ela 2");
+        Node kel19 = new Node("KEL19", 7.007834, 79.913573, "Kadawatha - Kerawalapitiya Outer Circular Expy");
+        Node kel20 = new Node("KEL20", 7.006249, 79.921272, "St Jude Mawatha");
+        Node kel21 = new Node("KEL21", 7.007301, 79.927133, "Kurukulawa Rd");
+        Node kel22 = new Node("KEL22", 7.008153, 79.930320, "St anthony's Road Highway Bridge");
+        Node kel23 = new Node("KEL23", 7.008722, 79.933316, "Pahalawatta Rd");
+        Node kel24 = new Node("KEL24", 7.009358, 79.939144, "Ragama Rd");
+        Node kel25 = new Node("KEL25", 7.010001, 79.947622, "New Mangala Mawatha");
 
 
         // =====================
@@ -65,6 +80,21 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addNode(kel08);
         graph.addNode(kel09);
         graph.addNode(kel10);
+        graph.addNode(kel11);
+        graph.addNode(kel12);
+        graph.addNode(kel13);
+        graph.addNode(kel14);
+        graph.addNode(kel15);
+        graph.addNode(kel16);
+        graph.addNode(kel17);
+        graph.addNode(kel18);
+        graph.addNode(kel19);
+        graph.addNode(kel20);
+        graph.addNode(kel21);
+        graph.addNode(kel22);
+        graph.addNode(kel23);
+        graph.addNode(kel24);
+        graph.addNode(kel25);
 
         // =====================
         // Add Edges
@@ -80,7 +110,21 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addEdge("KEL07", "KEL08");
         graph.addEdge("KEL08", "KEL09");
         graph.addEdge("KEL09", "KEL10");
-
+        graph.addEdge("KEL10", "KEL11");
+        graph.addEdge("KEL11", "KEL12");
+        graph.addEdge("KEL12", "KEL13");
+        graph.addEdge("KEL13", "KEL14");
+        graph.addEdge("KEL14", "KEL15");
+        graph.addEdge("KEL15", "KEL16");
+        graph.addEdge("KEL16", "KEL17");
+        graph.addEdge("KEL17", "KEL18");
+        graph.addEdge("KEL18", "KEL19");
+        graph.addEdge("KEL19", "KEL20");
+        graph.addEdge("KEL20", "KEL21");
+        graph.addEdge("KEL21", "KEL22");
+        graph.addEdge("KEL22", "KEL23");
+        graph.addEdge("KEL23", "KEL24");
+        graph.addEdge("KEL24", "KEL25");
 =======
 
 
