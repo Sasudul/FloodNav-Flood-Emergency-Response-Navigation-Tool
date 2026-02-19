@@ -168,17 +168,7 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addEdge("KEL28", "KEL29");
         graph.addEdge("KEL30", "KEL31");
 
-        graph.addEdge("KEL32", "KEL33");
-        graph.addEdge("KEL34", "KEL35");
-        graph.addEdge("KEL36", "KEL37");
-        graph.addEdge("KEL38", "KEL39");
-        graph.addEdge("KEL40", "KEL41");
-        graph.addEdge("KEL42", "KEL41");
-        graph.addEdge("KEL43", "KEL44");
-        graph.addEdge("KEL45", "KEL46");
-        graph.addEdge("KEL46", "KEL47");
-        graph.addEdge("KEL48", "KEL49");
-        graph.addEdge("KEL50", "KEL49");
+        
 
 
         System.out.println("✓ Loaded 14 nodes and 13 road segments in Kelaniya area");
