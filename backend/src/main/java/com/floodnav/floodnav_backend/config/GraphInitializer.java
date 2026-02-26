@@ -182,45 +182,8 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel141 = new Node("KEL141", 7.003091, 79.956819, "Ihala Biyanvila North, Kadawatha");
         Node kel142 = new Node("KEL142", 7.002799, 79.958736, "Ihala Biyanvila North 2, Kadawatha");
         Node kel143 = new Node("KEL143", 7.002428, 79.960099, "Kadawatha Exit");
-        Node kel144 = new Node("KEL144", 7.002914, 79.956307, "Shramadana Mawatha");
-        Node kel145 = new Node("KEL145", 7.002839, 79.957281, "Shramadana Mawatha 2");
-        Node kel146 = new Node("KEL146", 7.002546, 79.957433, "KDH HIROOF VAN FOR HIRE");
-        Node kel147 = new Node("KEL147", 7.002701, 79.957873, "Shramadana Mawatha 3");
-        Node kel148 = new Node("KEL148", 7.002699, 79.958124, "Mahagedarawatta Rd");
-        Node kel149 = new Node("KEL149", 7.002596, 79.958656, "Ihala Biyanvila North 3, Kadawatha");
-        Node kel150 = new Node("KEL150", 7.002194, 79.959229, "Gunarathne Mawatha");
-        Node kel151 = new Node("KEL151", 7.002090, 79.959843, "Shramadana Mawatha 4");
-        Node kel152 = new Node("KEL152", 7.001423, 79.959810, "Shramadana Mawatha 5");
-        Node kel153 = new Node("KEL153", 7.001260, 79.960106, "Kadawatha Exit 2");
-        Node kel154 = new Node("KEL154", 7.001286, 79.961096, "Outer Circular Expy 2");
-        Node kel155 = new Node("KEL155", 7.003215, 79.953612, "Personal Consultant");
-        Node kel156 = new Node("KEL156", 7.003751, 79.954089, "92 B58, Kadawatha");
-        Node kel157 = new Node("KEL157", 7.004714, 79.954223, "Kadawatha Bus Stand Roundabout");
-        Node kel158 = new Node("KEL158", 7.007136, 79.954291, "Maha Vidyala Mawatha");
-        Node kel159 = new Node("KEL159", 7.007860, 79.954312, "Udesh Book Shop, Kadawatha");
-        Node kel160 = new Node("KEL160", 7.008252, 79.954467, "Mudalige Mawatha");
-        Node kel161 = new Node("KEL161", 7.009024, 79.954558, "421-7 B58, Kadawatha");
-        Node kel162 = new Node("KEL162", 7.009675, 79.954176, "5 B58, Kadawatha");
-        Node kel163 = new Node("KEL163", 7.004649, 79.956613, "Kadawatha By Pass Rd");
-        Node kel164 = new Node("KEL164", 7.004718, 79.953054, "53 Kadawatha By Pass Rd");
-        Node kel165 = new Node("KEL165", 7.004310, 79.952255, "Andrews Ln");
-        Node kel166 = new Node("KEL166", 7.004037, 79.951296, "Galwala Rd");
-        Node kel167 = new Node("KEL167", 7.003837, 79.950803, "83 Kadawatha By Pass Rd");
-        Node kel168 = new Node("KEL168", 7.003610, 79.950550, "Kadawatha By Pass Rd Central");
-        Node kel169 = new Node("KEL169", 7.003074, 79.950228, "Dream nails & wax salon");
-        Node kel170 = new Node("KEL170", 7.002509, 79.949562, "Kadawatha By Pass Rd 2");
-        Node kel171 = new Node("KEL171", 7.001998, 79.949177, "Ragama Rd, Kadawatha");
-        Node kel172 = new Node("KEL172", 7.002209, 79.950926, "Ragama Rd 2, Kadawatha");
-        Node kel173 = new Node("KEL173", 7.001976, 79.947658, "125 Ragama Rd");
-        Node kel174 = new Node("KEL174", 7.002728, 79.944869, "Mahabodhi Road");
-        Node kel175 = new Node("KEL175", 7.005160, 79.940319, "71 Ragama Rd");
-        Node kel176 = new Node("KEL176", 7.008654, 79.939189, "2-23 Ragama Rd");
-
-
-
-        // =====================
+        
         // Add ALL Nodes
-        // =====================
 
         graph.addNode(kel01); 
         graph.addNode(kel02); 
@@ -365,44 +328,7 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addNode(kel141);
         graph.addNode(kel142);
         graph.addNode(kel143);
-        graph.addNode(kel144);
-        graph.addNode(kel145);
-        graph.addNode(kel146);
-        graph.addNode(kel147);
-        graph.addNode(kel148);
-        graph.addNode(kel149);
-        graph.addNode(kel150);
-        graph.addNode(kel151);
-        graph.addNode(kel152);
-        graph.addNode(kel153);
-        graph.addNode(kel154);
-        graph.addNode(kel155);
-        graph.addNode(kel156);
-        graph.addNode(kel157);
-        graph.addNode(kel158);
-        graph.addNode(kel159);
-        graph.addNode(kel160);
-        graph.addNode(kel161);
-        graph.addNode(kel162);
-        graph.addNode(kel163);
-        graph.addNode(kel164);
-        graph.addNode(kel165);
-        graph.addNode(kel166);
-        graph.addNode(kel167);
-        graph.addNode(kel168);
-        graph.addNode(kel169);
-        graph.addNode(kel170);
-        graph.addNode(kel171);
-        graph.addNode(kel172);
-        graph.addNode(kel173);
-        graph.addNode(kel174);
-        graph.addNode(kel175);
-        graph.addNode(kel176);
-        // =====================
-        // Add Edges
-        // =====================
-
-<<<<<<< HEAD
+        
         graph.addEdge("KEL01", "KEL02");
         graph.addEdge("KEL02", "KEL03");
         graph.addEdge("KEL03", "KEL04");
@@ -546,51 +472,9 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addEdge("KEL141", "KEL142");
         graph.addEdge("KEL142", "KEL143");
         graph.addEdge("KEL143", "KEL30");
-        graph.addEdge("KEL135", "KEL144");
-        graph.addEdge("KEL144", "KEL145");
-        graph.addEdge("KEL145", "KEL146");
-        graph.addEdge("KEL146", "KEL147");
-        graph.addEdge("KEL147", "KEL148");
-        graph.addEdge("KEL148", "KEL149");
-        graph.addEdge("KEL149", "KEL150");
-        graph.addEdge("KEL150", "KEL151");
-        graph.addEdge("KEL151", "KEL152");
-        graph.addEdge("KEL152", "KEL153");
-        graph.addEdge("KEL153", "KEL154");
-        graph.addEdge("KEL134", "KEL155");
-        graph.addEdge("KEL155", "KEL156");
-        graph.addEdge("KEL156", "KEL157");
-        graph.addEdge("KEL157", "KEL158");
-        graph.addEdge("KEL158", "KEL159");
-        graph.addEdge("KEL159", "KEL160");
-        graph.addEdge("KEL160", "KEL161");
-        graph.addEdge("KEL161", "KEL162");
-        graph.addEdge("KEL162", "KEL26");
-        graph.addEdge("KEL157", "KEL163");
-        graph.addEdge("KEL157", "KEL164");
-        graph.addEdge("KEL164", "KEL165");
-        graph.addEdge("KEL165", "KEL166");
-        graph.addEdge("KEL166", "KEL167");
-        graph.addEdge("KEL167", "KEL168");
-        graph.addEdge("KEL168", "KEL169");
-        graph.addEdge("KEL169", "KEL170");
-        graph.addEdge("KEL170", "KEL171");
-        graph.addEdge("KEL133", "KEL172");
-        graph.addEdge("KEL172", "KEL171");
-        graph.addEdge("KEL171", "KEL173");
-        graph.addEdge("KEL173", "KEL174");
-        graph.addEdge("KEL174", "KEL175");
-        graph.addEdge("KEL175", "KEL176");
-        graph.addEdge("KEL176", "KEL24");
-=======
-
-
-
-        System.out.println("✓ Loaded 31 nodes and road segments successfully");
-=======
+        
 
         System.out.println("✓ Loaded 14 nodes and 13 road segments in Kelaniya area");
->>>>>>> b3378e3dcb603f20bec9db37f14f0e0602327704
     }
 
     private void initializeRescueBase() {
