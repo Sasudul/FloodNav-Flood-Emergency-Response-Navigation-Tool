@@ -188,7 +188,7 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel141 = new Node("KEL141", 7.003091, 79.956819, "Ihala Biyanvila North, Kadawatha");
         Node kel142 = new Node("KEL142", 7.002799, 79.958736, "Ihala Biyanvila North 2, Kadawatha");
         Node kel143 = new Node("KEL143", 7.002428, 79.960099, "Kadawatha Exit");
-<<<<<<< Updated upstream
+
         Node kel144 = new Node("KEL144", 7.002914, 79.956307, "Shramadana Mawatha");
         Node kel145 = new Node("KEL145", 7.002839, 79.957281, "Shramadana Mawatha 2");
         Node kel146 = new Node("KEL146", 7.002546, 79.957433, "KDH HIROOF VAN FOR HIRE");
@@ -223,10 +223,6 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel175 = new Node("KEL175", 7.005160, 79.940319, "71 Ragama Rd");
         Node kel176 = new Node("KEL176", 7.008654, 79.939189, "2-23 Ragama Rd");
 
-
-
-        // =====================
-=======
         Node kel144 = new Node("KEL144", 6.977525, 79.922698, "522-512 B220, Dalugama");
         Node kel145 = new Node("KEL145", 6.978783, 79.917993, "33 Lumbini Mawatha");
         Node kel146 = new Node("KEL146", 6.978858, 79.914767, "3 B220, Dalugama");
@@ -286,9 +282,8 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel198 = new Node("KEL198", 6.989612, 79.960632, "715-716 Mankada Rd");
         Node kel199 = new Node("KEL199", 6.989825, 79.961746, "706 Mankada Rd");
         Node kel200 = new Node("KEL200", 6.989910, 79.962943, "Makola North Ihala 45");      
->>>>>>> Stashed changes
+        
         // Add ALL Nodes
-        // =====================
 
         graph.addNode(kel01); 
         graph.addNode(kel02); 
@@ -466,13 +461,10 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addNode(kel174);
         graph.addNode(kel175);
         graph.addNode(kel176);
-<<<<<<< Updated upstream
         // =====================
         // Add Edges
         // =====================
 
-<<<<<<< HEAD
-=======
         graph.addNode(kel177);
         graph.addNode(kel178);
         graph.addNode(kel179);
@@ -497,8 +489,7 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addNode(kel198);
         graph.addNode(kel199);
         graph.addNode(kel200);
-
->>>>>>> Stashed changes
+        
         graph.addEdge("KEL01", "KEL02");
         graph.addEdge("KEL02", "KEL03");
         graph.addEdge("KEL03", "KEL04");
@@ -642,31 +633,25 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addEdge("KEL141", "KEL142");
         graph.addEdge("KEL142", "KEL143");
         graph.addEdge("KEL143", "KEL30");
-<<<<<<< Updated upstream
         graph.addEdge("KEL135", "KEL144");
-=======
         graph.addEdge("KEL103", "KEL144");
->>>>>>> Stashed changes
         graph.addEdge("KEL144", "KEL145");
         graph.addEdge("KEL145", "KEL146");
         graph.addEdge("KEL146", "KEL147");
         graph.addEdge("KEL147", "KEL148");
         graph.addEdge("KEL148", "KEL149");
         graph.addEdge("KEL149", "KEL150");
-<<<<<<< Updated upstream
         graph.addEdge("KEL150", "KEL151");
         graph.addEdge("KEL151", "KEL152");
         graph.addEdge("KEL152", "KEL153");
         graph.addEdge("KEL153", "KEL154");
         graph.addEdge("KEL134", "KEL155");
-=======
         graph.addEdge("KEL150", "KEL07");
         graph.addEdge("KEL106", "KEL151");
         graph.addEdge("KEL151", "KEL152");
         graph.addEdge("KEL152", "KEL153");
         graph.addEdge("KEL153", "KEL154");
         graph.addEdge("KEL154", "KEL155");
->>>>>>> Stashed changes
         graph.addEdge("KEL155", "KEL156");
         graph.addEdge("KEL156", "KEL157");
         graph.addEdge("KEL157", "KEL158");
@@ -674,24 +659,21 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addEdge("KEL159", "KEL160");
         graph.addEdge("KEL160", "KEL161");
         graph.addEdge("KEL161", "KEL162");
-<<<<<<< Updated upstream
         graph.addEdge("KEL162", "KEL26");
         graph.addEdge("KEL157", "KEL163");
         graph.addEdge("KEL157", "KEL164");
         graph.addEdge("KEL164", "KEL165");
-=======
+
         graph.addEdge("KEL162", "KEL163");
         graph.addEdge("KEL163", "KEL164");
         graph.addEdge("KEL164", "KEL36");
         graph.addEdge("KEL158", "KEL165");
->>>>>>> Stashed changes
         graph.addEdge("KEL165", "KEL166");
         graph.addEdge("KEL166", "KEL167");
         graph.addEdge("KEL167", "KEL168");
         graph.addEdge("KEL168", "KEL169");
         graph.addEdge("KEL169", "KEL170");
         graph.addEdge("KEL170", "KEL171");
-<<<<<<< Updated upstream
         graph.addEdge("KEL133", "KEL172");
         graph.addEdge("KEL172", "KEL171");
         graph.addEdge("KEL171", "KEL173");
@@ -699,13 +681,6 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addEdge("KEL174", "KEL175");
         graph.addEdge("KEL175", "KEL176");
         graph.addEdge("KEL176", "KEL24");
-=======
-
-
-
-        System.out.println("✓ Loaded 31 nodes and road segments successfully");
-=======
-=======
         graph.addEdge("KEL171", "KEL35");
         graph.addEdge("KEL160", "KEL172");
         graph.addEdge("KEL172", "KEL173");
@@ -739,10 +714,8 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addEdge("KEL198", "KEL199");
         graph.addEdge("KEL199", "KEL200");
         graph.addEdge("KEL200", "KEL33");
->>>>>>> Stashed changes
 
-        System.out.println("✓ Loaded 14 nodes and 13 road segments in Kelaniya area");
->>>>>>> b3378e3dcb603f20bec9db37f14f0e0602327704
+        System.out.println("✓ Loaded 200 segments in Kelaniya area");
     }
 
     private void initializeRescueBase() {
