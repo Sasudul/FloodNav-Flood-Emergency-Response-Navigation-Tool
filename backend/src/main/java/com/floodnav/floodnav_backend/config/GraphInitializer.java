@@ -63,6 +63,7 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel22 = new Node("KEL22", 7.008153, 79.930320, "St anthony's Road Highway Bridge");
         Node kel23 = new Node("KEL23", 7.008722, 79.933316, "Pahalawatta Rd");
         Node kel24 = new Node("KEL24", 7.009358, 79.939144, "Ragama Rd");
+
         Node kel25 = new Node("KEL25", 7.010001, 79.947622, "New Mangala Mawatha");
         Node kel26 = new Node("KEL26", 7.010425, 79.953728, "B58 Kadawatha Ganemulla Road");
         Node kel27 = new Node("KEL27", 7.010252, 79.955742, "Puwakwetiya 1");
@@ -72,14 +73,17 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel31 = new Node("KEL31", 6.996837, 79.961976, "Ihala Biyanvila Central");
         Node kel32 = new Node("KEL32", 6.994163, 79.962670, "Nagahamula Rd");
         Node kel33 = new Node("KEL33", 6.989921, 79.964041, "Mankada Rd");
+
         Node kel34 = new Node("KEL34", 6.984431, 79.966418, "Makola North Ihala");
         Node kel35 = new Node("KEL35", 6.981268, 79.967933, "Makola - Udupila Rd");
         Node kel36 = new Node("KEL36", 6.970704, 79.972125, "Samurdhi Mawatha");
+
         Node kel37 = new Node("KEL37", 6.963916, 79.974854, "Siriketha Road");
         Node kel38 = new Node("KEL38", 6.952413, 79.976410, "Mahena Rd");
         Node kel39 = new Node("KEL39", 6.950442, 79.976172, "Jayanthi Mawatha");
         Node kel40 = new Node("KEL40", 6.944476, 79.974138, "Outer Circular Expy");
         Node kel41 = new Node("KEL41", 6.939004, 79.972098, "Biyagama South");
+
         Node kel42 = new Node("KEL42", 6.936198, 79.971714, "Raggahawatta");
         Node kel43 = new Node("KEL43", 6.935997, 79.970554, "Ranmal Pl");
         Node kel44 = new Node("KEL44", 6.935900, 79.969512, "AB10, Kaduwela");
@@ -170,8 +174,10 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel129 = new Node("KEL129", 7.000570, 79.948962, "Pahala Biyanvila East");
         Node kel130 = new Node("KEL130", 7.000740, 79.949397, "Kadawatha By Pass Rd");
         Node kel131 = new Node("KEL131", 7.001101, 79.950037, "Kadawatha Police Bus Stop");
-        Node kel132 = new Node("KEL132", 7.001694, 79.950831, "Mankada Rd");
+        Node kel132 = new Node("KEL132", 7.001694, 79.950831, "Mankada Rd 2");
+
         Node kel133 = new Node("KEL133", 7.001975, 79.951411, "Ragama Rd 2");
+
         Node kel134 = new Node("KEL134", 7.002786, 79.953620, "B58, Kadawatha");
         Node kel135 = new Node("KEL135", 7.003085, 79.956317, "Kandy - Colombo Rd 5");
         Node kel136 = new Node("KEL136", 7.004712, 79.956610, "168-156 Sunethrarama Rd");
@@ -182,6 +188,7 @@ public class GraphInitializer implements CommandLineRunner {
         Node kel141 = new Node("KEL141", 7.003091, 79.956819, "Ihala Biyanvila North, Kadawatha");
         Node kel142 = new Node("KEL142", 7.002799, 79.958736, "Ihala Biyanvila North 2, Kadawatha");
         Node kel143 = new Node("KEL143", 7.002428, 79.960099, "Kadawatha Exit");
+<<<<<<< Updated upstream
         Node kel144 = new Node("KEL144", 7.002914, 79.956307, "Shramadana Mawatha");
         Node kel145 = new Node("KEL145", 7.002839, 79.957281, "Shramadana Mawatha 2");
         Node kel146 = new Node("KEL146", 7.002546, 79.957433, "KDH HIROOF VAN FOR HIRE");
@@ -219,6 +226,67 @@ public class GraphInitializer implements CommandLineRunner {
 
 
         // =====================
+=======
+        Node kel144 = new Node("KEL144", 6.977525, 79.922698, "522-512 B220, Dalugama");
+        Node kel145 = new Node("KEL145", 6.978783, 79.917993, "33 Lumbini Mawatha");
+        Node kel146 = new Node("KEL146", 6.978858, 79.914767, "3 B220, Dalugama");
+        Node kel147 = new Node("KEL147", 6.982031, 79.908094, "33 Gotabaya Mawatha");
+        Node kel148 = new Node("KEL148", 6.983043, 79.906455, "B220, Hunupitiya Road");
+        Node kel149 = new Node("KEL149", 6.984681, 79.903491, "B220, Hunupitiya Road 2");
+        Node kel150 = new Node("KEL150", 6.984633, 79.901665, "Happy Dine, Station Rd, Wattala");
+        Node kel151 = new Node("KEL151", 6.977426, 79.929540, "Jinadasa Nandasena Mw.");
+        Node kel152 = new Node("KEL152", 6.976884, 79.931656, "Kendahena");
+        Node kel153 = new Node("KEL153", 6.976404, 79.933068, "Makola Road");
+        Node kel154 = new Node("KEL154", 6.978376, 79.936507, "Kiribathgoda-Sapugaskanda Rd 2");
+        Node kel155 = new Node("KEL155", 6.978620, 79.938465, "Thembiligasmulla Road");
+        Node kel156 = new Node("KEL156", 6.976723, 79.941395, "49 Kiribathgoda-Sapugaskanda Rd");
+        Node kel157 = new Node("KEL157", 6.976616, 79.946144, "Makola South, Gonawala");
+        Node kel158 = new Node("KEL158", 6.975044, 79.949626, "Sampath Bank Touchless ATM");
+
+        Node kel159 = new Node("KEL159", 6.972884, 79.952690, "Kiribathgoda-Sapugaskanda Rd 3");
+        Node kel160 = new Node("KEL160", 6.969091, 79.954399, "Pattiwila - Makola Rd");
+
+        Node kel161 = new Node("KEL161", 6.968657, 79.958641, "Sapugaskanda, Gonawala");
+        Node kel162 = new Node("KEL162", 6.967340, 79.961212, "Mabima Rd");
+        Node kel163 = new Node("KEL163", 6.968066, 79.969384, "Heiyanthuduwa East");
+        Node kel164 = new Node("KEL164", 6.970291, 79.970883, "1 Samurdhi Mawatha");
+        Node kel165 = new Node("KEL165", 6.975286, 79.953245, "Makola - Udupila Rd");
+        Node kel166 = new Node("KEL166", 6.977121, 79.954444, "Urlaub Auf Sri Lanka");
+        Node kel167 = new Node("KEL167", 6.978608, 79.959275, "Makola - Udupila Rd 2");
+        Node kel168 = new Node("KEL168", 6.980585, 79.961799, "Gonawala");
+        Node kel169 = new Node("KEL169", 6.981375, 79.963166, "Gamini Mawatha");
+        Node kel170 = new Node("KEL170", 6.981984, 79.965409, "610 Araliya Uyana Mawatha");
+        Node kel171 = new Node("KEL171", 6.981238, 79.967433, "Galwala Junction Bus Stop");
+        Node kel172 = new Node("KEL172", 6.966572, 79.954653, "Pattiwila - Makola Rd");
+        Node kel173 = new Node("KEL173", 6.964751, 79.954915, "Pattiwila - Makola Rd 2");
+        Node kel174 = new Node("KEL174", 6.959302, 79.953875, "Pattiwila - Makola Rd 3");
+        Node kel175 = new Node("KEL175", 6.956030, 79.953097, "Pattiwila - Makola Rd 4");
+        Node kel176 = new Node("KEL176", 6.955292, 79.954004, "Pattivila North");
+        Node kel177 = new Node("KEL177", 6.950015, 79.955715, "Grama Niladhari Office - (279/A) Pattiwila, Gonawala.");
+        Node kel178 = new Node("KEL178", 6.949671, 79.954502, "Pattivila South");
+        Node kel179 = new Node("KEL179", 6.948706, 79.954576, "Pattivila South 2");
+        Node kel180 = new Node("KEL180", 6.947696, 79.954354, "Pattiwila - Makola Rd 5");
+        Node kel181 = new Node("KEL181", 6.946694, 79.954835, "Pattiwila - Makola Rd 6");
+        Node kel182 = new Node("KEL182", 6.944869, 79.955060, "Pattivila South 3");
+        Node kel183 = new Node("KEL183", 6.944021, 79.954938, "Pattiwila Junction");
+        Node kel184 = new Node("KEL184", 6.942277, 79.961894, "1 Biyagama Rd");
+        Node kel185 = new Node("KEL185", 6.938935, 79.970122, "2 Biyagama Rd");
+        Node kel186 = new Node("KEL186", 7.002741, 79.944868, "Mahabodhi Road");
+        Node kel187 = new Node("KEL187", 7.004814, 79.940607, "Kirimatiyagara Rd");
+        Node kel188 = new Node("KEL188", 7.000858, 79.952041, "2-719 Mankada Rd");
+        Node kel189 = new Node("KEL189", 6.999699, 79.951995, "Mankada Rd, Kadawatha");
+        Node kel190 = new Node("KEL190", 6.999204, 79.952525, "Mankada Rd 2, Kadawatha");
+        Node kel191 = new Node("KEL191", 6.998065, 79.953617, "431 Mankada Rd");
+        Node kel192 = new Node("KEL192", 6.996493, 79.954262, "Halgasdeniya Rd");
+        Node kel193 = new Node("KEL193", 6.995129, 79.954537, "Pahala Biyanvila East");
+        Node kel194 = new Node("KEL194", 6.994153, 79.955216, "Ihala Biyanvila North 23");
+        Node kel195 = new Node("KEL195", 6.993305, 79.955031, "450 Mankada Rd");
+        Node kel196 = new Node("KEL196", 6.992344, 79.955295, "247 Mankada Rd");
+        Node kel197 = new Node("KEL197", 6.990720, 79.958338, "Mankada Temple Rd");
+        Node kel198 = new Node("KEL198", 6.989612, 79.960632, "715-716 Mankada Rd");
+        Node kel199 = new Node("KEL199", 6.989825, 79.961746, "706 Mankada Rd");
+        Node kel200 = new Node("KEL200", 6.989910, 79.962943, "Makola North Ihala 45");      
+>>>>>>> Stashed changes
         // Add ALL Nodes
         // =====================
 
@@ -398,11 +466,39 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addNode(kel174);
         graph.addNode(kel175);
         graph.addNode(kel176);
+<<<<<<< Updated upstream
         // =====================
         // Add Edges
         // =====================
 
 <<<<<<< HEAD
+=======
+        graph.addNode(kel177);
+        graph.addNode(kel178);
+        graph.addNode(kel179);
+        graph.addNode(kel180);
+        graph.addNode(kel181);
+        graph.addNode(kel182);
+        graph.addNode(kel183);
+        graph.addNode(kel184);
+        graph.addNode(kel185);
+        graph.addNode(kel186);
+        graph.addNode(kel187);
+        graph.addNode(kel188);
+        graph.addNode(kel189);
+        graph.addNode(kel190);
+        graph.addNode(kel191);
+        graph.addNode(kel192);
+        graph.addNode(kel193);
+        graph.addNode(kel194);
+        graph.addNode(kel195);
+        graph.addNode(kel196);
+        graph.addNode(kel197);
+        graph.addNode(kel198);
+        graph.addNode(kel199);
+        graph.addNode(kel200);
+
+>>>>>>> Stashed changes
         graph.addEdge("KEL01", "KEL02");
         graph.addEdge("KEL02", "KEL03");
         graph.addEdge("KEL03", "KEL04");
@@ -546,18 +642,31 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addEdge("KEL141", "KEL142");
         graph.addEdge("KEL142", "KEL143");
         graph.addEdge("KEL143", "KEL30");
+<<<<<<< Updated upstream
         graph.addEdge("KEL135", "KEL144");
+=======
+        graph.addEdge("KEL103", "KEL144");
+>>>>>>> Stashed changes
         graph.addEdge("KEL144", "KEL145");
         graph.addEdge("KEL145", "KEL146");
         graph.addEdge("KEL146", "KEL147");
         graph.addEdge("KEL147", "KEL148");
         graph.addEdge("KEL148", "KEL149");
         graph.addEdge("KEL149", "KEL150");
+<<<<<<< Updated upstream
         graph.addEdge("KEL150", "KEL151");
         graph.addEdge("KEL151", "KEL152");
         graph.addEdge("KEL152", "KEL153");
         graph.addEdge("KEL153", "KEL154");
         graph.addEdge("KEL134", "KEL155");
+=======
+        graph.addEdge("KEL150", "KEL07");
+        graph.addEdge("KEL106", "KEL151");
+        graph.addEdge("KEL151", "KEL152");
+        graph.addEdge("KEL152", "KEL153");
+        graph.addEdge("KEL153", "KEL154");
+        graph.addEdge("KEL154", "KEL155");
+>>>>>>> Stashed changes
         graph.addEdge("KEL155", "KEL156");
         graph.addEdge("KEL156", "KEL157");
         graph.addEdge("KEL157", "KEL158");
@@ -565,16 +674,24 @@ public class GraphInitializer implements CommandLineRunner {
         graph.addEdge("KEL159", "KEL160");
         graph.addEdge("KEL160", "KEL161");
         graph.addEdge("KEL161", "KEL162");
+<<<<<<< Updated upstream
         graph.addEdge("KEL162", "KEL26");
         graph.addEdge("KEL157", "KEL163");
         graph.addEdge("KEL157", "KEL164");
         graph.addEdge("KEL164", "KEL165");
+=======
+        graph.addEdge("KEL162", "KEL163");
+        graph.addEdge("KEL163", "KEL164");
+        graph.addEdge("KEL164", "KEL36");
+        graph.addEdge("KEL158", "KEL165");
+>>>>>>> Stashed changes
         graph.addEdge("KEL165", "KEL166");
         graph.addEdge("KEL166", "KEL167");
         graph.addEdge("KEL167", "KEL168");
         graph.addEdge("KEL168", "KEL169");
         graph.addEdge("KEL169", "KEL170");
         graph.addEdge("KEL170", "KEL171");
+<<<<<<< Updated upstream
         graph.addEdge("KEL133", "KEL172");
         graph.addEdge("KEL172", "KEL171");
         graph.addEdge("KEL171", "KEL173");
@@ -588,6 +705,41 @@ public class GraphInitializer implements CommandLineRunner {
 
         System.out.println("✓ Loaded 31 nodes and road segments successfully");
 =======
+=======
+        graph.addEdge("KEL171", "KEL35");
+        graph.addEdge("KEL160", "KEL172");
+        graph.addEdge("KEL172", "KEL173");
+        graph.addEdge("KEL173", "KEL174");
+        graph.addEdge("KEL174", "KEL175");
+        graph.addEdge("KEL175", "KEL176");
+        graph.addEdge("KEL176", "KEL177");
+        graph.addEdge("KEL177", "KEL178");
+        graph.addEdge("KEL178", "KEL179");
+        graph.addEdge("KEL179", "KEL180");
+        graph.addEdge("KEL180", "KEL181");
+        graph.addEdge("KEL181", "KEL182");
+        graph.addEdge("KEL182", "KEL183");
+        graph.addEdge("KEL183", "KEL184");
+        graph.addEdge("KEL184", "KEL185");
+        graph.addEdge("KEL185", "KEL41");
+        graph.addEdge("KEL133", "KEL186");
+        graph.addEdge("KEL186", "KEL187");
+        graph.addEdge("KEL187", "KEL24");
+        graph.addEdge("KEL132", "KEL188");
+        graph.addEdge("KEL188", "KEL189");
+        graph.addEdge("KEL189", "KEL190");
+        graph.addEdge("KEL190", "KEL191");
+        graph.addEdge("KEL191", "KEL192");
+        graph.addEdge("KEL192", "KEL193");
+        graph.addEdge("KEL193", "KEL194");
+        graph.addEdge("KEL194", "KEL195");
+        graph.addEdge("KEL195", "KEL196");
+        graph.addEdge("KEL196", "KEL197");
+        graph.addEdge("KEL197", "KEL198");
+        graph.addEdge("KEL198", "KEL199");
+        graph.addEdge("KEL199", "KEL200");
+        graph.addEdge("KEL200", "KEL33");
+>>>>>>> Stashed changes
 
         System.out.println("✓ Loaded 14 nodes and 13 road segments in Kelaniya area");
 >>>>>>> b3378e3dcb603f20bec9db37f14f0e0602327704
