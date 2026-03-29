@@ -1,5 +1,3 @@
-# PDSA-CW
-
 # FloodNav | Disaster Response Routing System
 
 This project is Developed as part of the Programming, Data Structures, and Algorithms (PDSA) coursework at the National Institute of Business Management (NIBM). **FloodNav** is a specialized decision-support engine designed for emergency rescuers. It addresses the "Last Mile" navigation problem in flooded environments by combining priority-based scheduling with dynamic graph-based routing.
@@ -20,3 +18,11 @@ Frontend: React 18, TypeScript, Tailwind CSS
 
 Data Structures: * Map<Integer, List<Edge>> for Graph Adjacency List.
 Custom PriorityQueue implementation for the Max Heap.
+
+---
+
+### Contributors
+1. Sasudul (sasudul)
+2. Branjana (sureshbranjana)
+3. Harsha (Harsha20020703)
+4. Hirantha (HiranthaRupasinghe)
