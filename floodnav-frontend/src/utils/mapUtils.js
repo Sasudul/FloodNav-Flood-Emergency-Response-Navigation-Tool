@@ -1,10 +1,6 @@
-// =====================================
-// Map Defaults (Kelaniya Area, Sri Lanka)
-// =====================================
-
 export const DEFAULT_CENTER = {
-  lat: 6.956667,
-  lng: 79.920556
+  lat: 6.975603,
+  lng: 79.92466
 };
 
 export const DEFAULT_ZOOM = 13;
@@ -335,7 +331,7 @@ export const GRAPH_EDGES = [
   ["KEL135","KEL141"],["KEL141","KEL142"],["KEL142","KEL143"],["KEL143","KEL30"],
 
   // KEL135+KEL103 → B220 Dalugama spur → reconnects to KEL07
-  ["KEL135","KEL144"],["KEL103","KEL144"],
+  ["KEL103","KEL144"],
   ["KEL144","KEL145"],["KEL145","KEL146"],["KEL146","KEL147"],
   ["KEL147","KEL148"],["KEL148","KEL149"],["KEL149","KEL150"],["KEL150","KEL07"],
 
