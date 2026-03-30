@@ -8,7 +8,7 @@ import {
   getSeverityColor
 } from '../utils/mapUtils';
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyApw7jKl2M8XzOlU9rSm1ERmw4hPIOu2gk";
+const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 /* -------------------- Polyline Helper -------------------- */
 function MapPolyline({ path, options }) {
